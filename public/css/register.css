@@ -1,0 +1,56 @@
+.formulario{
+    width: 100%;
+    max-width: 360px;
+    margin: 40px auto;
+}
+
+.formulario h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.formulario form input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.modo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.modo label{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.categorias{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:20px;
+} 
+
+
+.formulario .boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.formulario button{
+    background-color:var( --color-celeste);
+    color:white;
+    width: 25%;
+    border-radius: 6%;
+}

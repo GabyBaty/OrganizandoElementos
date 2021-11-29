@@ -1,0 +1,28 @@
+.login{
+    width: 100%;
+    max-width: 360px;
+    margin: 40px auto;
+}
+
+ .login form input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    width: 100%;
+}
+
+.login .boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.login button{
+    background-color: var( --color-celeste);
+    color:white;
+    width: 25%;
+    border-radius: 6%;
+}
